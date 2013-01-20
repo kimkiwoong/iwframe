@@ -255,11 +255,13 @@
 
 	<modules>
 		<module>iwframe.biz</module>
-		<module>iwframe.bundle</module>
+		<module>iwframe.persist</module>
 		<module>iwframe.util</module>
 		<module>iwframe.config</module>
 		<module>iwframe.deploy</module>
+		<!--
 		<module>iwframe.web</module>
+		-->
 		<module>iwframe.rest</module>
 	</modules>
 
