@@ -15,7 +15,7 @@
 	<name>iwframe.rest Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<build>
-		<finalName>iwframe.rest</finalName>
+		<finalName>iwframe</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
@@ -49,8 +49,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<dependencies>
-		<!-- core library -->
+	<dependencies><!-- core library -->
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-jaxrs</artifactId>
@@ -122,14 +121,17 @@
 			<artifactId>fastjson</artifactId>
 		</dependency>
 
+		<!-- spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
 
-		<!-- other jar -->
+		<!-- other project -->
 		<dependency>
 			<groupId>com.impzx.iwframe</groupId>
 			<artifactId>iwframe.config</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
-
-
 	</dependencies>
 </project>
