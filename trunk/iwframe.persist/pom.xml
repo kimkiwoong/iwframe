@@ -19,39 +19,27 @@
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 		</dependency>
+	
 		<dependency>
-			<groupId>org.mybatis</groupId>
-			<artifactId>mybatis-spring</artifactId>
+			<groupId>com.impzx.iwframe</groupId>
+  <artifactId>iwframe.util</artifactId>
+  <version>1.0-SNAPSHOT</version>
 		</dependency>
-		<dependency>
-			<groupId>commons-dbcp</groupId>
-			<artifactId>commons-dbcp</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-		
-		
-		<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-jdbc</artifactId>
-			</dependency>
-
-		<!-- other project -->
+	
 		<dependency>
 			<groupId>com.impzx.iwframe</groupId>
 			<artifactId>iwframe.config</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
-		
-		
-
 	</dependencies>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
